@@ -1,7 +1,7 @@
 name: winblank
 on:
   schedule:
-    - cron: '42 */1 * * *' # 
+    - cron: '42 */8 * * *' # 
 jobs:
   build:
 
