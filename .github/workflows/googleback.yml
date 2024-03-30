@@ -1,4 +1,4 @@
-name: winsix-back
+name: win
 on: [push, workflow_dispatch]
 jobs:
   build:
