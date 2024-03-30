@@ -36,16 +36,16 @@ jobs:
       run: |
         Invoke-WebRequest https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/win/OneDriveUploader.exe -OutFile OneDriveUploader.exe
         Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/aaaaa.json -OutFile aaaaa.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/bbbbb.json -OutFile bbbbb.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile ccccc.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile ddddd.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/eeeee.json -OutFile eeeee.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile fffff.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile ggggg.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/eeeee.json -OutFile hhhhh.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile iiiii.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile jjjjj.json
-       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/admadmin1106.json -OutFile auth.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/bbbbb.json -OutFile bbbbb.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile ccccc.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile ddddd.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/eeeee.json -OutFile eeeee.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile fffff.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile ggggg.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/eeeee.json -OutFile hhhhh.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile iiiii.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile jjjjj.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/admadmin1106.json -OutFile auth.json
 
         New-Item -ItemType Directory -Path "wwww"
         
