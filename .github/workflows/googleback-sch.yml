@@ -36,7 +36,7 @@ jobs:
       run: |
         Invoke-WebRequest https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/win/OneDriveUploader.exe -OutFile OneDriveUploader.exe
         Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/admin1106.json -OutFile auth.json
-        Invoke-WebRequest https://howtogo.alwaysdata.net/plann604/auth.json -OutFile plann604.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/plann604.json -OutFile plann604.json
         Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/koyeb.json -OutFile koyeb.json
         Invoke-WebRequest https://howtogo.alwaysdata.net/vgyydf123555/auth.json -OutFile vgyydf123555.json
         Invoke-WebRequest https://howtogo.alwaysdata.net/fyy235866/auth.json -OutFile fyy235866.json
