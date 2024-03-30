@@ -1,4 +1,4 @@
-name: winsix-back
+name: winblank
 on: [push, workflow_dispatch]
 jobs:
   build:
