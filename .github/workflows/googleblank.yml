@@ -1,5 +1,7 @@
 name: winblank
-on: [push, workflow_dispatch]
+on:
+  schedule:
+    - cron: '42 */1 * * *' # 
 jobs:
   build:
 
