@@ -1,7 +1,5 @@
 name: winsix-back
-on:
-  schedule:
-    - cron: '42 */1 * * *' # 
+on: [push, workflow_dispatch]
 jobs:
   build:
 
