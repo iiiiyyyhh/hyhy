@@ -1,4 +1,4 @@
-name: winten-back
+name: winten
 on: [push, workflow_dispatch]
 jobs:
   build:
