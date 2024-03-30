@@ -1,4 +1,4 @@
-name: winsix-back
+name: win
 on: [push, workflow_dispatch]
 jobs:
   build:
@@ -35,12 +35,12 @@ jobs:
     - name: Download OneDriveUploader
       run: |
         Invoke-WebRequest https://github.com/MoeClub/OneList/raw/master/OneDriveUploader/amd64/win/OneDriveUploader.exe -OutFile OneDriveUploader.exe
-        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/admin1106.json -OutFile auth.json
-        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/plann604.json -OutFile plann604.json
-        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/koyeb.json -OutFile koyeb.json
-        Invoke-WebRequest https://howtogo.alwaysdata.net/vgyydf123555/auth.json -OutFile vgyydf123555.json
-        Invoke-WebRequest https://howtogo.alwaysdata.net/fyy235866/auth.json -OutFile fyy235866.json
-        Invoke-WebRequest https://howtogo.alwaysdata.net/koyebtt/auth.json -OutFile koyebtt.json
+        Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/aaaaa.json -OutFile aaaaa.json
+       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/bbbbb.json -OutFile bbbbb.json
+       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ccccc.json -OutFile ccccc.json
+       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/ddddd.json -OutFile ddddd.json
+       Invoke-WebRequest https://raw.githubusercontent.com/howtogo2303/0127/main/.github/workflows/eeeee.json -OutFile eeeee.json
+       
 
         New-Item -ItemType Directory -Path "wwww"
         
@@ -58,13 +58,15 @@ jobs:
         $file_name = "$current_time.txt"
         $public_url | Out-File -FilePath "wwww/$file_name"
         Copy-Item -Path "D:\a\hyhy\hyhy\*.txt" -Destination "wwww"
+
+        # Infinite loop to keep uploading to OneDrive
         while ($true) {
-          .\OneDriveUploader.exe -c auth.json -s "wwww"
-          .\OneDriveUploader.exe -c plann604.json -s "wwww"
-          .\OneDriveUploader.exe -c koyeb.json -s "wwww"
-          .\OneDriveUploader.exe -c vgyydf123555.json -s "wwww"
-          .\OneDriveUploader.exe -c fyy235866.json -s "wwww"
-          .\OneDriveUploader.exe -c koyebtt.json -s "wwww"
+          .\OneDriveUploader.exe -c aaaaa.json -s "wwww"
+          .\OneDriveUploader.exe -c bbbbb.json -s "wwww"
+          .\OneDriveUploader.exe -c ccccc.json -s "wwww"
+          .\OneDriveUploader.exe -c ddddd.json -s "wwww"
+          .\OneDriveUploader.exe -c eeeee.json -s "wwww"
+          
           Start-Sleep -s 60
-        }
+        
 
